@@ -9,7 +9,7 @@ class conexion
 	public function __construct(){
 		$this->servidor = "localhost";
 		$this->usuario = "root";
-		$this->contrasena = "";
+		$this->contrasena = "123456";
 		$this->basedatos = "bd_ver1";
 	}
 	
