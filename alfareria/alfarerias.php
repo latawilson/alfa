@@ -134,8 +134,16 @@ while($row= mysql_fetch_array($result))
              <center><p class="titulo" style="text-transform: uppercase;"><?php echo($row['nombre_al']); ?></p></center> 
             </div>
 		        <div class="imagen">
-			        <img src="../imagen_alfa/<?php echo($row['imagen_al']); ?>" class="imagen">
-		        </div>
+
+
+              <?php if ($row['imagen_al'] == ""): ?>
+                        <img src="../imagen_alfa/alfa15.jpg" class="imagen">
+              <?php else: ?>
+                       <img src="../imagen_alfa/<?php echo($row['imagen_al']); ?>" class="imagen">
+
+              <?php endif ?>
+        
+			 		        </div>
 		        <div class="info">
               <center><p class="titulo" >Propietario: <?php echo($row['propietario_al']); ?></p></center> 
 			        <a class="btn btn-warning btn-sm link " href="alfarerias-editar.php?id_al=<?php echo($row['id_al']);?>" ><span class="glyphicon glyphicon-pencil"></span>Editar</a>
