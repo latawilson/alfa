@@ -4,7 +4,7 @@ include_once("../clases/cls_producto.php");
 //echo($_GET['txtEmpr']);
  $target_path = "../imagen_pro/";
 	$target_path = $target_path . basename( $_FILES['imagen_pro']['name']); 
-	if(move_uploaded_file($_FILES['imagen_pro']['tmp_name'], $target_path)) 
+	if(move_uploaded_file($_FILES['imagen_pro']['tmp_name'], $target_path)|| " ") 
 	{
 	    echo "El archivo ".  basename( $_FILES['imagen_pro']['name']). 
 	    " ha sido subido";
