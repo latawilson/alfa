@@ -377,6 +377,18 @@ if (@!$_SESSION['MM_Username']) {
                       </div>
                     </div>
                   </div>
+                  <div class="border p-3 mb-5">
+                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsepaypal" role="button" aria-expanded="false" aria-controls="collapsepaypal">Número  telefónico para más información</a></h3>
+
+                    <div class="collapse" id="collapsepaypal">
+                      <div class="py-2">
+                        <p class="mb-0"> 0987654321  Nombre: sr. Bolivar Espinosa</p>
+                         <p class="mb-0"> 0987654321  Nombre: sra.Gloria Villacis</p>
+                      </div>
+                    </div>
+                  </div>
+
+
                                <div class="row mb-5">
               <div class="col-md-12">
                 <h2 class="h3 mb-3 text-black">Comprobante</h2>
