@@ -247,15 +247,6 @@ if ((isset($_GET['doLogout'])) &&($_GET['doLogout']=="true")){
 
     }).done(function(resp){
       if(resp.length>0){
-        if (/^[\],:{}\s]*$/.test(resp.replace(/\\["\\\/bfnrtu]/g, '@').
-          replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, ']').
-          replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
-alert("alerta");
-
-        }else{
-
-alert("noo");
-        }
         var data = JSON.parse(resp);
         var fecha=[];
         var cantidad=[];  
