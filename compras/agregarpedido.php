@@ -42,7 +42,8 @@ for ($i = 0; $i < sizeof($detail['id_pro']); $i++) {
 
 header('Location: thankyou.php');
 	} else{
-	    echo "Ha ocurrido un error, trate de nuevo!";
+	    echo "Ha ocurrido un error, trate de nueavo!";
+	    echo '<script>window.location="thankyou.php"</script>';  
 	}
 
 ?>

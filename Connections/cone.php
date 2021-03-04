@@ -10,8 +10,8 @@
 $hostname_cone = "localhost";
 $database_cone = "bd_ver1";
 $username_cone = "root";
-$password_cone = "123456";	
-// $password_cone = "";	
+// $password_cone = "123456";	
+$password_cone = "";	
 
 $cone = mysql_pconnect($hostname_cone, $username_cone, $password_cone) or trigger_error(mysql_error(),E_USER_ERROR); 
 

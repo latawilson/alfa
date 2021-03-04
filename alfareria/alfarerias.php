@@ -123,7 +123,7 @@ require_once("../clases/cls_alfareria.php");
 $obj_alfareria= new alfareria();
 $result=$obj_alfareria->consultar();
 $datos= array();
-?>
+?><br><br>
 	<div class="contenedor-alfa1" >
 <?php
 while($row= mysql_fetch_array($result))
