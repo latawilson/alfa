@@ -268,6 +268,11 @@ if (@!$_SESSION['MM_Username']) {
         
           </div>
         </div>
+
+        <!-- form -->
+        <div>
+          
+        <div>
         <center>
           <div class="col-md-9">
             <form enctype="multipart/form-data" method="post" name="form1" action="agregarpedido.php?usuario_cli1=<?php echo $_SESSION['MM_Username'];?>">

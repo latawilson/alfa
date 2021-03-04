@@ -32,18 +32,18 @@ $obj_pedido_detalle = new detalle ();
 for ($i = 0; $i < sizeof($detail['id_pro']); $i++) {	
 	$obj_pedido_detalle->insertar ($detail['id_pro'][$i],$last_id,  $detail['cantidad'][$i], $detail['total'][$i] );	
 }
-include_once ("../clases/cls_producto.php");
-$obj_pedido_detalle = new producto();
+// include_once ("../clases/cls_producto.php");
+// $obj_pedido_detalle = new producto();
 
-for ($i = 0; $i < sizeof($detail['id_pro']); $i++) {	
-	$obj_pedido_detalle->actualizarpro ($detail['id_pro'][$i],$detail['subtotal'][$i] );	
-}
+// for ($i = 0; $i < sizeof($detail['id_pro']); $i++) {	
+// 	$obj_pedido_detalle->actualizarpro ($detail['id_pro'][$i],$detail['subtotal'][$i] );	
+// }
 
 
 header('Location: thankyou.php');
 	} else{
 	    echo "Ha ocurrido un error, trate de nueavo!";
-	    echo '<script>window.location="thankyou.php"</script>';  
+	    // echo '<script>window.location="thankyou.php"</script>';  
 	}
 
 ?>
