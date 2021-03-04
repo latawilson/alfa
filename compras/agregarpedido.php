@@ -3,8 +3,8 @@ include_once ("../clases/cls_pedido.php");
 
 //echo($_GET['txtEmpr']);
  $target_path = "../imagen_con/";
-	$target_path = $target_path . basename( $_FILES['pdf_compro_ped']['name'] || " "); 
-	if(move_uploaded_file($_FILES['pdf_compro_ped']['tmp_name'], $target_path)) 
+	$target_path = $target_path . basename( $_FILES['pdf_compro_ped']['name']); 
+	if(move_uploaded_file($_FILES['pdf_compro_ped']['tmp_name'], $target_path)|| " ") 
 	{
 	    echo "El archivo ".  basename( $_FILES['pdf_compro_ped']['name']). 
 	    " ha sido subido";
