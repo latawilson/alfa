@@ -1,6 +1,7 @@
 <?php
 include_once("../clases/cls_alfareria.php");
 print_r($_FILE);
+echo $_FILE;
 // $nombre=$_FILE['imagen_al']['name'];
 // $guardar=$$FILE['imagen_al']['tmp_name']
 
