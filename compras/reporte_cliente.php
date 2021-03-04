@@ -125,7 +125,7 @@ $dompdf->load_html(ob_get_clean());
 $dompdf->render();
 $pdf = $dompdf->output();
 $filename = "comprobante.pdf";
-file_put_contents($filename, $pdf);
+file_put_contents($pdf);
 $dompdf->stream($filename);
 ?>
 </body>

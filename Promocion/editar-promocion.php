@@ -140,7 +140,7 @@ $(function() {
       </ul>
       </li>
       <li><a  href="../administrador/pedido.php"><span class="icon-cart icon"></span>Pedidos</a></li>
-      <li><a  href="#"><span class="icon-calendar icon"></span>Reportes</a></li>
+      <li><a  href="../reporte_pdf/Reporte_pedido.php" target="_blank"><span class="icon-calendar icon"></span>Reportes</a></li>
       <li><a  href="../informe/informes.php"><span class="icon-wrench icon"></span>Informaci&oacuten</a></li>
       <li><a  href="promociones.php"><span class="icon-gift icon"></span>Promociones</a></li>
       <li><a  href="../index.php"><span class="icon-database icon"></span>Revisi&oacuten de Interfaz</a></li>
