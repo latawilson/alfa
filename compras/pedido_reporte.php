@@ -190,7 +190,7 @@ $row=$obj_pedido->consultarid_ped($_GET['id_ped']);
                         $obj_pedido= new pedido();
                         $row=$obj_pedido->consultarid_ped($_GET['id_ped']);
                         ?>
-                                   <p><h5 class="text-black"> Fecha del prodido:</h5> <?php echo($row['fecha_ped']); ?> </p>
+                                   <p><h5 class="text-black"> Fecha del pedido:</h5> <?php echo($row['fecha_ped']); ?> </p>
                                    <p> <h5 class="text-black"> Total: </h5><?php echo($row['total_ped']); ?> </p>
                                    
 

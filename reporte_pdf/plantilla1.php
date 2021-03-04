@@ -4,7 +4,7 @@
    function Header(){
 
    	$this->Image('../images/fon2.jpg',50,10,110);
-   	$this->SetFont('Times','B',15);
+   	$this->SetFont('Times','B',10);
    	$this->Cell(50);
      $this->Cell (250,10,date("Y/m/d"),0,0,'C');
      $this->Ln(20);

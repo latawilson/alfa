@@ -81,5 +81,15 @@ class asignatura
 		$result=mysql_query($query,$dbconexion);
 		return $result;
 	}
+
+	function reportePDF($id_cli,$id_ped){
+		$conex=new DBConexion();
+		$dbconexion=$conex->conexion;
+		$query=sprintf("Select DISTINCT( u.nombre_cli, u.apellido_cli, ub.id_ped, ub.cliente_id_cli, ub.fecha_ped, ub.estado_ped, ub.total_ped , ub.fecha_compro_ped, ub.direccion_entriega_ped, dp.cantidad_depe , p.precio_pro , p.nombre_pro)
+			FROM pedido ub,cliente u, detalle_pedido dp, producto p
+			where( ub.cliente_id_cli = u.id_cli and cliente_id_cli='%s') and (dp.producto_id_pro =  p.id_pro and dp.pedido_id_ped='%s')",$id_cli,$id_ped);
+		$result=mysql_query($query,$dbconexion);
+		return $result;
+	}
 }
 ?>
