@@ -135,11 +135,10 @@ while($row= mysql_fetch_array($result))
             </div>
 		        <div class="imagen">
 
-
-              <?php if ($row['imagen_al'] == ""): ?>
-                        <img src="../imagen_alfa/alfa15.jpg" class="imagen">
+              <?php if ($row['imagen_al'] != " "): ?>
+                         <img src="../imagen_alfa/<?php echo($row['imagen_al']); ?>" class="imagen">
               <?php else: ?>
-                       <img src="../imagen_alfa/<?php echo($row['imagen_al']); ?>" class="imagen">
+                <img src="../imagen_alfa/alfa15.jpg" class="imagen">
 
               <?php endif ?>
         
