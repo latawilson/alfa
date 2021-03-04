@@ -126,6 +126,7 @@ $datos= array();
 ?><br><br>
 	<div class="contenedor-alfa1" >
 <?php
+$estado1= "";
 while($row= mysql_fetch_array($result))
 {
 ?>			
@@ -135,12 +136,12 @@ while($row= mysql_fetch_array($result))
             </div>
 		        <div class="imagen">
 
-              <?php if ($row['imagen_al'] != " "): ?>
+              <?php if ($row['imagen_al'] == $estado1): ?>
 
-                
-                         <img src="../imagen_alfa/<?php echo($row['imagen_al']); ?>" class="imagen">
-              <?php else: ?>
                 <img src="../imagen_alfa/alfa15.jpg" class="imagen">
+                        
+              <?php else: ?>
+                 <img src="../imagen_alfa/<?php echo($row['imagen_al']); ?>" class="imagen">
 
               <?php endif ?>
         
