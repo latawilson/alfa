@@ -275,7 +275,7 @@ if (@!$_SESSION['MM_Username']) {
         <div>
         <center>
           <div class="col-md-9">
-            <form enctype="multipart/form-data" method="post" name="form1" action="agregarpedido.php?usuario_cli1=<?php echo $row['usuario_cli'];?>">
+            <form enctype="multipart/form-data" method="post" name="form1" action="agregarpedido.php?usuario_cli=<?php echo $row['usuario_cli'];?>">
             <div class="row mb-5">
               <div class="col-md-12">
                 
