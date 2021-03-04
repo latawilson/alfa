@@ -3,7 +3,7 @@ include_once("../clases/cls_alfareria.php");
 print_r($_FILE);
 echo $_FILE;
 echo "entro";
-echo json_encode("sseee  === ",$_FILE['imagen_al']['name']);
+echo json_encode($_FILE['imagen_al']['name']);
 
 // $nombre=$_FILE['imagen_al']['name'];
 // $guardar=$$FILE['imagen_al']['tmp_name']
