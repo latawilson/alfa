@@ -88,6 +88,8 @@ if ((isset($_GET['doLogout'])) &&($_GET['doLogout']=="true")){
 	<a href="alfarerias-crear.php"><p class="add"> <strong>+</strong>Agregar Nueva Alfarer&iacutea</p></a>
    </div>
    <br>
+
+
    <div class="caer" style="background: #fff; width: 120px; height: 30px; padding: 5px; margin-left: 90%; border-radius: 10px;
     position: absolute; margin-top: -95px; background-color: rgb(232,129,9, .7);">
 

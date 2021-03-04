@@ -7,8 +7,8 @@ public $conexion;
 protected $db;
 private $host="localhost";
 private $usua="root";
-// private $cla="123456";
-private $cla="";
+private $cla="123456";
+// private $cla="";
 private $base="bd_ver1";
 
 	public function __construct()
