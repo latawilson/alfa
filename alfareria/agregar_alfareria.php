@@ -1,15 +1,10 @@
 <?php
 include_once("../clases/cls_alfareria.php");
 
-$nombre=$_FILE['imagen_al']['name'];
-$guardar=$$FILE['imagen_al']['tmp_name']
-
-
-
 //echo($_GET['txtEmpr']);
  $target_path = "../imagen_alfa/";
 	$target_path = $target_path . basename( $_FILES['imagen_al']['name']); 
-	if(move_uploaded_file($_FILES['imagen_al']['tmp_name'], $target_path) || " ") 
+	if(move_uploaded_file($_FILES['imagen_al']['tmp_name'], $target_path)|| " ") 
 	{
 	    echo "El archivo ".  basename( $_FILES['imagen_al']['name']). 
 	    " ha sido subido";
