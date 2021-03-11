@@ -89,7 +89,7 @@
           <li class="has-children active">
             <a href="#">informaci&oacuten</a>
             <ul class="dropdown">
-              <li><a href="proposito.php">PROP&Oacute;sito</a></li>
+              <li><a href="proposito.php">PROP&Oacute;SITO</a></li>
               <li><a href="historia.php">HISTORIA</a></li>
               <li><a href="autorid.php">AUTORIDADES</a></li>
             </ul>
