@@ -60,7 +60,7 @@
             <li class="has-children active">
               <a href="#">INFORMACI&oacuteN </a>
               <ul class="dropdown">
-                <li><a href="proposito.php">PROP&oacuteSITO </a></li>
+                <li><a href="proposito.php">PROPÓSITO </a></li>
                 <li><a href="historia.php">HISTORIA</a></li>
                 <li><a href="autorid.php">AUTORIDADES</a></li>
               </ul>
@@ -71,8 +71,8 @@
             <li class="has-children">
               <a href="#">Galer&iacutea</a>
               <ul class="dropdown">
-                <li><a href="decoracion.php?id_clas=2">DECORACI&oacuteN </a></li>
-                <li><a href="jardin.php?id_clas=1">JARDINER&iacuteA </a></li>
+                <li><a href="decoracion.php?id_clas=2">DECORACIÓN</a></li>
+                <li><a href="jardin.php?id_clas=1">JARDINERÍA</a></li>
                 <li><a href="teja.php?id_clas=3">TEJA</a></li>
               </ul>
             </li>

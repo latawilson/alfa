@@ -71,7 +71,7 @@ $row=$obj_pedido->consultarid_pede($_GET['id_ped']);
 <html lang="en">
   <head>
     <title>Subir Comprobante</title>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
@@ -171,9 +171,9 @@ $row=$obj_pedido->consultarid_pede($_GET['id_ped']);
             <li class="has-children active">
               <a href="#">informaci&oacuten</a>
              <ul class="dropdown">
-                <li><a href="../proposito.php">Prop&oacutesito</a></li>
-                <li><a href="../historia.php">Historia</a></li>
-                <li><a href="../autorid.php">Autoridades</a></li>
+                <li><a href="../proposito.php">PROP&OacuteSITO</a></li>
+                <li><a href="../historia.php">HISTORIA</a></li>
+                <li><a href="../autorid.php">AUTORIDADES</a></li>
               </ul>
             </li>
             <li class="has-children">
@@ -182,7 +182,10 @@ $row=$obj_pedido->consultarid_pede($_GET['id_ped']);
             <li class="has-children">
               <a href="#">Galer&iacutea</a>
               <ul class="dropdown">
-                <li><a href="../decoracion.php">Decoraci&oacuten</a></li>
+
+                  <li><a href="../decoracion.php?id_clas=2">DECORACI&OacuteN</a></li>
+              <li><a href="../jardin.php?id_clas=1">JARDINER&IacuteA</a></li>
+              <li><a href="../teja.php?id_clas=3">TEJA </a></li>
               </ul>
             </li>
          
@@ -265,7 +268,7 @@ $row=$obj_pedido->consultarid_pede($_GET['id_ped']);
                 <div class="form-group row">
                   <div class="col-lg-12">
                     <input name="id_ped" type="text" value="<?php echo($row['id_ped']); ?>" style="margin-bottom:-30px" >
-                    <input type="submit" class="btn btn-primary btn-lg btn-block" value="Editar Informacion" style="margin-top:-30px">
+                    <input type="submit" class="btn btn-primary btn-lg btn-block" value="Editar Información" style="margin-top:-30px">
                   </div>
                 </div>
               </div>

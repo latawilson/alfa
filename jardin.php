@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>GAD La Victoria &mdash; Decoracion</title>
+    <title>GAD La Victoria &mdash; Decoración </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -57,7 +57,7 @@
             <li class="has-children active">
               <a href="#">INFORMACI&oacuteN </a>
              <ul class="dropdown">
-                <li><a href="proposito.php">PROP&oacuteSITO </a></li>
+                <li><a href="proposito.php">PROPÓSITO</a></li>
                 <li><a href="historia.php">HISTORIA</a></li>
                 <li><a href="autorid.php">AUTORIDADES</a></li>
               </ul>
@@ -69,9 +69,9 @@
             <li class="has-children">
               <a href="#">Galer&iacutea</a>
               <ul class="dropdown">
-                <li><a href="decoracion.php?id_clas=2">DECORACI&oacuteN </a></li>
-            <li><a href="jardin.php?id_clas=1">JARDINER&iacuteA </a></li>
-             <li><a href="teja.php?id_clas=3">TEJA </a></li>
+                <li><a href="decoracion.php?id_clas=2">DECORACIÓN</a></li>
+            <li><a href="jardin.php?id_clas=1">JARDINERÍA</a></li>
+             <li><a href="teja.php?id_clas=3">TEJA</a></li>
               </ul>
             </li>
             <!--<li><a href="contact.php">Contacto</a></li>-->

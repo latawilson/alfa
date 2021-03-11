@@ -17,7 +17,7 @@ $pdf->SetFont('Times','B',10);
 $pdf->Cell(10,6,utf8_decode('N°'),1,0,'C',1);
 $pdf->Cell(20,6,'Nombre ',1,0,'C',1);
 $pdf->Cell(20,6,'Apellido',1,0,'C',1);
-$pdf->Cell(20,6,utf8_decode('Direcci&oacuten'),1,0,'C',1);
+$pdf->Cell(20,6,utf8_decode('Dirección'),1,0,'C',1);
 $pdf->Cell(30,6,'Fecha del pedido',1,0,'C',1);
 $pdf->Cell(40,6,'Fecha del comprobante',1,0,'C',1);
 $pdf->Cell(30,6,'Estado',1,0,'C',1);

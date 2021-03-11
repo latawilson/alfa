@@ -546,7 +546,7 @@ if(isset($_GET['action']))
                 </div>
                 <div class="info">
 
-                  <p class="titulo ">$<?php echo( -($row['precio_pro'] *$row['descuento_prom']/100))+$row['precio_pro']; ?> Antes <s> $<?php echo($row['precio_pro']); ?></s></p>
+                  <p class="titulo ">$<?php echo( -($row['precio_pro'] *$row['descuento_prom']/100))+$row['precio_pro']; ?> Antess <s> $<?php echo($row['precio_pro']); ?></s></p>
 
                   <input style="display: none" type="hidden" name="hidden_imagen_pro" value="<?php echo $row['imagen_pro'];?>" />
                   <input style="display: none" type="hidden" name="hidden_alfareria_id_al" value="<?php echo $row['alfareria_id_al'];?>" />
@@ -621,7 +621,7 @@ $resultalfa= $obj_producto->consult($_GET['id_al']);
             </div>
             <div class="info">
 
-              <p class="titulo ">Precio: <?php echo($row['precio_pro']); ?> $</p>
+              <p class="titulo ">Presios: <?php echo($row['precio_pro']); ?> $</p>
 
               <input style="display: none" type="hidden" name="hidden_imagen_pro" value="<?php echo $row['imagen_pro'];?>" />
               <input style="display: none" type="hidden" name="hidden_alfareria_id_al" value="<?php echo $row['alfareria_id_al'];?>" />
@@ -638,7 +638,7 @@ $resultalfa= $obj_producto->consult($_GET['id_al']);
               <a class=" btn-sm link2" href="javascript:openVentana(); javascript:closeCarrito();" id="<?php echo($row['id_pro']); ?>"   onclick="cargarDetalle(this)"   ><span class="" ></span>Detalle</a>
             </div>
           </div>
-        <!-- </form>    -->
+        </form> 
         <?php 
       }
       ?>  

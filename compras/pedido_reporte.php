@@ -127,7 +127,7 @@ $row=$obj_pedido->consultarid_ped($_GET['id_ped']);
             <li class="has-children active">
               <a href="#">INFORMACI&oacuteN </a>
              <ul class="dropdown">
-                <li><a href="../proposito.php">PROP&oacuteSITO </a></li>
+                <li><a href="../proposito.php">PROP&OacuteSITO </a></li>
                 <li><a href="../historia.php">HISTORIA</a></li>
                 <li><a href="../autorid.php">AUTORIDADES</a></li>
               </ul>
@@ -138,8 +138,8 @@ $row=$obj_pedido->consultarid_ped($_GET['id_ped']);
             <li class="has-children">
               <a href="#">Galer&iacutea</a>
               <ul class="dropdown">
-                 <li><a href="../decoracion.php?id_clas=2">DECORACI&oacuteN </a></li>
-                <li><a href="../jardin.php?id_clas=1">JARDINER&iacuteA </a></li>
+                 <li><a href="../decoracion.php?id_clas=2">DECORACI&OacuteN </a></li>
+                <li><a href="../jardin.php?id_clas=1">JARDINER&IacuteA </a></li>
                 <li><a href="../teja.php?id_clas=3">TEJA</a></li>
 
 
@@ -282,7 +282,7 @@ $row=$obj_pedido->consultarid_ped($_GET['id_ped']);
          <div class="pie2">
           <br>
             <p>
-            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> Jefferson Moreno  ! Edgar Silva by <a>UTC</a>
+            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script>  <a>UTC</a>
             </p>
           </div>       
       
