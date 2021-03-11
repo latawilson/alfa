@@ -84,9 +84,9 @@
           <li class="has-children active">
             <a href="#">informaci&oacuten</a>
             <ul class="dropdown">
-              <li><a href="proposito.php">Prop&oacutesito</a></li>
-              <li><a href="historia.php">Historia</a></li>
-              <li><a href="autorid.php">Autoridades</a></li>
+              <li><a href="proposito.php">PROP&Oacute;SITO</a></li>
+              <li><a href="historia.php">HISTORIA</a></li>
+              <li><a href="autorid.php">AUTOTIDADES</a></li>
             </ul>
           </li>
           <li class="has-children">
@@ -96,15 +96,15 @@
           <li class="has-children">
             <a href="#">Galer&iacutea</a>
             <ul class="dropdown">
-              <li><a href="decoracion.php?id_clas=2">DECORACI&oacuteN </a></li>
-              <li><a href="jardin.php?id_clas=1">JARDINER&iacuteA </a></li>
+              <li><a href="decoracion.php?id_clas=2">DECORACI&oacute;N </a></li>
+              <li><a href="jardin.php?id_clas=1">JARDINER&iacute;A </a></li>
               <li><a href="teja.php?id_clas=3">TEJA </a></li>
             </ul>
           </li>
           <!--    <li><a href="contact.php">Contácto</a></li>-->
 
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
           <li><a href="loginres-adm.php"><span class="icon icon-person"></span></a></li>
         </ul>
 
