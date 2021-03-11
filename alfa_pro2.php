@@ -621,7 +621,7 @@ $resultalfa= $obj_producto->consult($_GET['id_al']);
             </div>
             <div class="info">
 
-              <p class="titulo ">Presios: <?php echo($row['precio_pro']); ?> $</p>
+              <p class="titulo ">Precio: <?php echo($row['precio_pro']); ?> $</p>
 
               <input style="display: none" type="hidden" name="hidden_imagen_pro" value="<?php echo $row['imagen_pro'];?>" />
               <input style="display: none" type="hidden" name="hidden_alfareria_id_al" value="<?php echo $row['alfareria_id_al'];?>" />

@@ -288,7 +288,7 @@ $row=$obj_alfareria->consultarid_cli($_GET['id_cli']);
         <div class="form-group row">
           <div class="col-lg-12">
             <input name="id_cli" type="text" value="<?php echo($row['id_cli']); ?>"style="margin-bottom:-30px" >
-            <input type="submit" class="btn btn-primary btn-lg btn-block" value="Editar Información" style="margin-top:-30px">
+            <input type="submit" class="btn btn-primary btn-lg btn-block" value="Editar Informaci&oacuten" style="margin-top:-30px">
           </div>
         </div>
       </div>
