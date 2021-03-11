@@ -168,7 +168,7 @@ $obj_cliente= new usuario();
   <div class="bg-light py-3">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 mb-0"><a class="col-me" href="../index.php">Inicio</a> <span class="mx-2 mb-0">/</span> <span class="mx-2 mb-0">/</span><strong class="text-black1">Perfil de usuario</strong></div>
+        <div class="col-md-12 mb-0"><a class="col-me" href="../index.php">Inicio</a> <span class="mx-2 mb-0"></span> / <span class="mx-2 mb-0"></span><strong class="text-black1">Perfil de usuario</strong></div>
       </div>
     </div>
   </div>
