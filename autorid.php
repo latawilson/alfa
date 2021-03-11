@@ -57,7 +57,7 @@
             <li class="has-children active">
               <a href="#">INFORMACI&oacuteN </a>
              <ul class="dropdown">
-                <li><a href="proposito.php">PROP&oacuteSITO </a></li>
+                <li><a href="proposito.php">PROP&OacuteSITO </a></li>
                 <li><a href="historia.php">HISTORIA</a></li>
                 <li><a href="autorid.php">AUTORIDADES</a></li>
               </ul>
@@ -69,8 +69,8 @@
             <li class="has-children">
               <a href="#">Galer&iacutea</a>
               <ul class="dropdown">
-                <li><a href="decoracion.php?id_clas=2">DECORACI&oacuteN </a></li>
-                <li><a href="jardin.php?id_clas=1">JARDINER&iacuteA </a></li>
+                <li><a href="decoracion.php?id_clas=2">DECORACI&OacuteN </a></li>
+                <li><a href="jardin.php?id_clas=1">JARDINER&IacuteA </a></li>
                   <li><a href="teja.php?id_clas=3">TEJA </a></li>
               </ul>
             </li>
@@ -109,7 +109,7 @@
             <div class="block-38 text-center">
               <div class="block-38-img">
                 <div class="block-38-header">
-                  <img src="images/aut1.JPG" alt="Image placeholder" class="mb-4">
+                  <img src="images/aut1.jpg" alt="Image placeholder" class="mb-4">
                   <h3 class="block-38-heading h4">Ing. Galo Vinicio Jimenes Guerrero</h3>
                   <p class="block-38-subheading">Presidente</p>
                 </div>

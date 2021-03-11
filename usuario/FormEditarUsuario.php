@@ -243,7 +243,7 @@ $row=$obj_alfareria->consultarid_cli($_GET['id_cli']);
  
  <div class="row">
   <div class="col-md-12">
-    <h2 class="h3 mb-3 text-black" style=" margin-left: 480px; margin-right: -250px;" charset="utf-8"> INFORMACI&oacuteN</h2>
+    <h2 class="h3 mb-3 text-black" style=" margin-left: 480px; margin-right: -250px;" charset="utf-8"> INFORMACI&OacuteN</h2>
   </div>
   <div class="col-md-7">
 
@@ -288,7 +288,7 @@ $row=$obj_alfareria->consultarid_cli($_GET['id_cli']);
         <div class="form-group row">
           <div class="col-lg-12">
             <input name="id_cli" type="text" value="<?php echo($row['id_cli']); ?>"style="margin-bottom:-30px" >
-            <input type="submit" class="btn btn-primary btn-lg btn-block" value="Editar Informacion" style="margin-top:-30px">
+            <input type="submit" class="btn btn-primary btn-lg btn-block" value="Editar Información" style="margin-top:-30px">
           </div>
         </div>
       </div>
