@@ -268,7 +268,7 @@ $row=$obj_pedido->consultarid_pede($_GET['id_ped']);
                 <div class="form-group row">
                   <div class="col-lg-12">
                     <input name="id_ped" type="text" value="<?php echo($row['id_ped']); ?>" style="margin-bottom:-30px" >
-                    <input type="submit" class="btn btn-primary btn-lg btn-block" value="Editar Informaci&oacuten" style="margin-top:-30px">
+                    <input type="submit" class="btn btn-primary btn-lg btn-block" value="Editar Informaci&oacute;n" style="margin-top:-30px">
                   </div>
                 </div>
               </div>
