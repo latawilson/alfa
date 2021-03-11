@@ -119,9 +119,9 @@ if ((isset($_GET['doLogout'])) &&($_GET['doLogout']=="true")){
           <ul class="site-menu js-clone-nav d-none d-md-block">
             <li><a href="../index.php">inicio</a></li>
             <li class="has-children active">
-              <a href="#">INFORMACI&oacuteN </a>
+              <a href="#">INFORMACI&Oacute;N </a>
              <ul class="dropdown">
-                <li><a href="../proposito.php">PROP&oacuteSITO </a></li>
+                <li><a href="../proposito.php">PROP&OacuteSITO </a></li>
                 <li><a href="../historia.php">HISTORIA</a></li>
                 <li><a href="../autorid.php">AUTORIDADES</a></li>
               </ul>
@@ -132,7 +132,9 @@ if ((isset($_GET['doLogout'])) &&($_GET['doLogout']=="true")){
             <li class="has-children">
               <a href="#">Galer&iacutea</a>
               <ul class="dropdown">
-                <li><a href="../decoracion.php">DECORACI&oacuteN </a></li>
+               <li><a href="../decoracion.php?id_clas=2">DECORACI&Oacute;N</a></li>
+              <li><a href="../jardin.php?id_clas=1">JARDINER&Iacute;A</a></li>
+              <li><a href="../teja.php?id_clas=3">TEJA</a></li>
               </ul>
             </li>
          
