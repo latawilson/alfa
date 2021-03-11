@@ -161,13 +161,13 @@ if ((isset($_GET['doLogout'])) &&($_GET['doLogout']=="true")){
     <div class="card-body">
       <div class="row">
         <div class="col-lg-2">
-          <label for=""> fecha inicio</label>
+          <label for=""> Fecha Inicio</label>
           
           <select name="select_finicio" id="select_finicio" class="form-control"></select>
           
         </div>
         <div class="col-lg-5">
-          <label for=""> fecha fin</label>
+          <label for=""> Fecha Fin</label>
           <select name="select_fdin" id="select_fdin" class="form-control"></select>
           
         </div>

@@ -299,7 +299,7 @@ if ((isset($_GET['doLogout'])) &&($_GET['doLogout']=="true")){
      <div class="pie2">
       <br>
       <p>
-        Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> Jefferson Moreno  ! Edgar Silva by <a>UTC</a>
+        Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script><a>UTC</a>
       </p>
     </div>       
 

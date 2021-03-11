@@ -168,7 +168,7 @@
 <script type="text/javascript">
   Swal.fire({
   title: 'Error!',
-  text: 'Usuario o  Contrase&ntilde;a  contraseña estan incorrectas',
+  text: 'Usuario o Contraseña estan incorrectas',
   icon: 'error',
   confirmButtonText: 'Ok'
 })
